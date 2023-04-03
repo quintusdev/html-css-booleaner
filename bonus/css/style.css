@@ -1,0 +1,134 @@
+/* regola css per annullare il margin e il pagging della pagina*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/*Formattazione pagina bonus*/
+.container {
+    margin: 0 20%;
+}
+
+ /*classi header*/
+ .pattern {
+    background-color: rgb(4, 163, 255);
+    height: 200px;
+    background-image: url(../img/pattern.png);
+}
+
+ /*Formattazione pattern header*/
+ #logo {
+    width: 20%;
+    padding-top: 100px;
+}
+ 
+ /*Formattazione titolo main*/
+ #titolo {
+    font-size: 50px;
+    padding-top: 20px;
+}
+
+ /*Formattazione sottotitolo main*/
+ #sottotitolo h4{
+    color: gray;
+    padding: 0px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+  /*Formattazione span sottotitolo*/
+#sottotitolo span {
+    color: rgb(4, 163, 255);
+}
+
+/*Formattazione paragrafo*/
+.paragrafo {
+    padding: 40px 0px;
+}
+
+/*Sottolianetura paragrafo*/
+.paragrafo span{
+    background-color:yellow;
+    color: black;
+}
+
+/*Formattazione lista*/
+#lista{
+    padding-left: 25px;
+    padding-bottom: 50px;
+}
+
+/*Formattazione tabella generale*/
+#tabella{
+    padding: 40px 0px 40px 0px;
+    border-collapse: collapse;
+}
+
+/*Formattazione intestazione tabella*/
+#intestazione {
+    background-color: rgb(0, 153, 255);
+    color: white;
+    text-align: left;
+}
+
+/*Formattazione celle corpo tabella*/
+th, tr{
+    width: 800px;
+}
+
+/*impostazione larghezza tabella*/
+#int {
+    width: 50%;
+}
+
+.descr {
+    width: 25%;
+}
+
+/*Formattazione celle colorate tabella*/
+#riga-pari, #riga-pari1 {
+    background-color: #96deff;
+}
+
+/*Formattazione titolo footer*/
+#titolo-footer{
+    color: gray;
+    font-weight: 700;
+}
+
+/*Formattazione immagine 1 footer*/
+#img-footer1{
+    background-image: url(../img/monitor.jpg);
+    background-repeat: no-repeat;
+    background-position: left;
+    height: 210px;
+    width: 320px;
+    padding-top: 15px;
+    padding-left: 10px;
+    margin-top: 25px;
+}
+
+h4 {
+    color: white;
+    font-weight: 700;
+}
+
+/*Formattazione immagine 2 footer*/
+#img-footer2{
+    background-image: url(../img/graph.jpg);
+    background-repeat: no-repeat;
+    background-position: left;
+    height: 210px;
+    width: 320px;
+    padding-top: 15px;
+    padding-left: 10px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+h4 {
+    color: white;
+    font-weight: 700;
+}
