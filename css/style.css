@@ -14,6 +14,14 @@
 
  /*Formattazione pattern header*/
  #logo {
-    width: 200px;
-    padding-bottom: 10px;
+    width: 20%;
+    padding-top: 100px;
+ }
+
+ 
+ /*Formattazione titolo main*/
+ #titolo {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    padding-top: 20px;
  }
