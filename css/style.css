@@ -3,6 +3,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
  }
 
  /*classi header*/
@@ -21,7 +22,6 @@
  
  /*Formattazione titolo main*/
  #titolo {
-    font-family: 'Times New Roman', Times, serif;
     font-size: 50px;
     padding-top: 20px;
  }
@@ -37,3 +37,16 @@
 #sottotitolo span {
     color: rgb(4, 163, 255);
 }
+
+/*Formattazione primo paragrafo*/
+#primo-paragrafo {
+    padding-top: 40px;
+    
+}
+
+/*Sottolianetura primo paragrafo*/
+#primo-paragrafo span{
+    background-color:yellow;
+    color: black;
+}
+
