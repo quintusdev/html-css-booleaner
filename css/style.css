@@ -37,21 +37,20 @@
     color: rgb(4, 163, 255);
 }
 
-/*Formattazione primo paragrafo*/
-#primo-paragrafo {
-    padding-top: 40px;
-    
+/*Formattazione paragrafo*/
+.paragrafo {
+    padding: 40px 0px;
 }
 
-/*Sottolianetura primo paragrafo*/
-#primo-paragrafo span{
+/*Sottolianetura paragrafo*/
+.paragrafo span{
     background-color:yellow;
     color: black;
 }
 
 /*Formattazione lista*/
 #lista{
-    padding: 40px 0 40px 0;
+    padding: 0 0 40px 0;
 }
 
 /*Formattazione tabella generale*/
