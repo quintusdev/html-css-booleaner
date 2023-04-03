@@ -5,12 +5,15 @@
     box-sizing: border-box;
  }
 
- /*Formattazione pattern header*/
- #pattern {
+ /*classi header*/
+ .pattern {
     background-color: rgb(4, 163, 255);
-    background-image: url(../img/pattern.png);
-    background-size: contain;
-    background-repeat: repeat;
-    width: 100%;
     height: 200px;
+    background-image: url(../img/pattern.png);
+ }
+
+ /*Formattazione pattern header*/
+ #logo {
+    width: 200px;
+    padding-bottom: 10px;
  }
