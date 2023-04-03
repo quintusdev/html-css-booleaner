@@ -69,10 +69,48 @@
 /*Formattazione celle corpo tabella*/
 th, td {
     text-align: left;
-    padding: 8px;
+    padding-left: 100px;
   }
+
+td>.descr {
+    padding: 0px;
+}
 
 /*Formattazione celle colorate tabella*/
 #riga-pari, #riga-pari1 {
     background-color: #96deff;
+}
+
+/*Formattazione titolo footer*/
+#titolo-footer{
+    color: gray;
+    font-weight: 700;
+}
+
+/*Formattazione immagine 1 footer*/
+#img-footer1{
+    background-image: url(../img/monitor.jpg);
+    background-size: auto;
+    background-position: left;
+    background-repeat: no-repeat;
+}
+
+#img-footer1 h4 {
+    color: white;
+    font-size: medium;
+    padding-top: 20px;
+}
+
+/*Formattazione immagine 2 footer*/
+#img-footer2{
+    background-image: url(../img/monitor.jpg);
+    background-size: auto;
+    background-position: left;
+    background-repeat: no-repeat;
+}
+
+#img-footer2 h4 {
+    color: white;
+    font-size: medium;
+    padding-top: 20px;
 }
