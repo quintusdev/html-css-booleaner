@@ -22,6 +22,18 @@
  /*Formattazione titolo main*/
  #titolo {
     font-family: 'Times New Roman', Times, serif;
-    font-size: 40px;
+    font-size: 50px;
     padding-top: 20px;
  }
+
+ /*Formattazione sottotitolo main*/
+ #sottotitolo {
+    color: gray;
+    padding-top: 10px;
+    padding-bottom: 20px;
+ }
+
+  /*Formattazione span sottotitolo*/
+#sottotitolo span {
+    color: rgb(4, 163, 255);
+}
