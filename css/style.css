@@ -25,8 +25,9 @@
 }
 
  /*Formattazione sottotitolo main*/
- #sottotitolo h4 {
+ #sottotitolo h4{
     color: gray;
+    padding: 0px;
     margin-top: 10px;
     margin-bottom: 20px;
 }
@@ -67,8 +68,17 @@
 
 /*Formattazione celle corpo tabella*/
 th, tr{
-    width: 1200px;
-  }
+    width: 800px;
+}
+
+/*impostazione larghezza tabella*/
+#int {
+    width: 50%;
+}
+
+.descr {
+    width: 25%;
+}
 
 /*Formattazione celle colorate tabella*/
 #riga-pari, #riga-pari1 {
@@ -90,7 +100,7 @@ th, tr{
     width: 320px;
     padding-top: 15px;
     padding-left: 10px;
-    
+    margin-top: 25px;
 }
 
 h4 {
@@ -107,7 +117,7 @@ h4 {
     width: 320px;
     padding-top: 15px;
     padding-left: 10px;
-    margin-top: 10px;
+    margin-top: 25px;
 }
 
 h4 {
